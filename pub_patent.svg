@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" width="240" height="140">
+  <rect width="240" height="140" fill="#181818" rx="4"/>
+  <rect x="10" y="10" width="220" height="120" fill="none" stroke="#292929" stroke-width="1" rx="3"/>
+  <circle cx="120" cy="60" r="32" fill="none" stroke="#C49A55" stroke-width="1.5"/>
+  <circle cx="120" cy="60" r="26" fill="none" stroke="#C49A55" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <path d="M112 55 L120 45 L128 55 L124 55 L124 72 L116 72 L116 55 Z" fill="#C49A55" opacity="0.9"/>
+  <text x="120" y="104" font-family="serif" font-size="10" font-weight="700" fill="#F2F1EC" text-anchor="middle" letter-spacing="0.1em">INDIAN PATENT 473301</text>
+  <text x="120" y="118" font-family="sans-serif" font-size="8" fill="#C49A55" text-anchor="middle" letter-spacing="0.05em">GRANTED APPARATUS &bull; 2024</text>
+</svg>

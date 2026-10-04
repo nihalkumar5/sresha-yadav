@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" width="240" height="140">
+  <rect width="240" height="140" fill="#181818" rx="4"/>
+  <rect x="10" y="10" width="220" height="120" fill="none" stroke="#292929" stroke-width="1" rx="3"/>
+  <!-- Waveform / Speech audio -->
+  <path d="M30 65 L50 65 L60 45 L70 85 L80 35 L90 95 L100 25 L110 105 L120 30 L130 100 L140 40 L150 90 L160 50 L170 80 L180 65 L210 65" fill="none" stroke="#C49A55" stroke-width="1.8"/>
+  <text x="20" y="116" font-family="sans-serif" font-size="9" font-weight="600" fill="#A6A49D" letter-spacing="0.08em">MULTIMEDIA LANGUAGE LABORATORY</text>
+  <text x="20" y="128" font-family="sans-serif" font-size="7.5" fill="#C49A55">CALL &bull; PHONETICS &bull; EYE-TRACKING</text>
+</svg>

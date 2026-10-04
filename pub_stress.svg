@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" width="240" height="140">
+  <rect width="240" height="140" fill="#181818" rx="4"/>
+  <rect x="10" y="10" width="220" height="120" fill="none" stroke="#292929" stroke-width="1" rx="3"/>
+  <!-- Normal curve distribution -->
+  <path d="M30 90 Q80 90 100 65 Q120 30 140 65 Q160 90 210 90" fill="none" stroke="#C49A55" stroke-width="2"/>
+  <line x1="120" y1="30" x2="120" y2="95" stroke="#A6A49D" stroke-width="1" stroke-dasharray="2 2"/>
+  <line x1="30" y1="95" x2="210" y2="95" stroke="#444" stroke-width="1"/>
+  <text x="20" y="120" font-family="sans-serif" font-size="9" font-weight="600" fill="#A6A49D" letter-spacing="0.08em">PSYCHOMETRICS &bull; GENERAL HEALTH</text>
+</svg>

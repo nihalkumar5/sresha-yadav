@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" width="240" height="140">
+  <rect width="240" height="140" fill="#181818" rx="4"/>
+  <rect x="10" y="10" width="220" height="120" fill="none" stroke="#292929" stroke-width="1" rx="3"/>
+  <!-- Book / Manuscript motif -->
+  <path d="M60 45 Q90 50 120 45 Q150 50 180 45 L180 85 Q150 90 120 85 Q90 90 60 85 Z" fill="none" stroke="#C49A55" stroke-width="1.5"/>
+  <line x1="120" y1="45" x2="120" y2="85" stroke="#C49A55" stroke-width="1.5"/>
+  <line x1="75" y1="57" x2="105" y2="57" stroke="#A6A49D" stroke-width="0.8"/>
+  <line x1="75" y1="66" x2="105" y2="66" stroke="#A6A49D" stroke-width="0.8"/>
+  <line x1="75" y1="75" x2="100" y2="75" stroke="#A6A49D" stroke-width="0.8"/>
+  <line x1="135" y1="57" x2="165" y2="57" stroke="#A6A49D" stroke-width="0.8"/>
+  <line x1="135" y1="66" x2="165" y2="66" stroke="#A6A49D" stroke-width="0.8"/>
+  <line x1="135" y1="75" x2="160" y2="75" stroke="#A6A49D" stroke-width="0.8"/>
+  <text x="20" y="120" font-family="sans-serif" font-size="9" font-weight="600" fill="#A6A49D" letter-spacing="0.08em">LITERARY CRITICISM &bull; TAGORE STUDIES</text>
+</svg>

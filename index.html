@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Sresha Yadav — Associate Professor &amp; Head of Humanities, IIIT Naya Raipur</title>
+  <meta name="description"
+    content="Academic portfolio and research portal of Dr. Sresha Yadav, Associate Professor of English & Head of the Department of Humanities at IIIT Naya Raipur.">
+
+  <!-- Modern Clean Typography: Inter, Plus Jakarta Sans, Newsreader & Handwritten Accent (Caveat) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css?v=clean_profile_drawer_v1">
+</head>
+
+<body>
+
+  <!-- TOP MINIMAL NAVIGATION BAR -->
+  <header class="academic-navbar">
+    <div class="navbar-container">
+      <a href="#about" class="navbar-brand">Dr. Sresha Yadav</a>
+
+      <div class="navbar-right-controls">
+        <!-- Desktop Nav Links -->
+        <nav class="navbar-nav desktop-nav" id="desktopNav">
+          <a href="#about" class="nav-link active">Home</a>
+          <a href="#publications" class="nav-link">Publications</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#teaching" class="nav-link">Teaching</a>
+          <a href="#cv-preview" id="navCvBtn" class="nav-link">CV</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Theme Toggle Button -->
+        <button id="themeToggle" class="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+          <svg class="theme-icon sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Toggle Button -->
+        <button id="mobileMenuToggle" class="mobile-hamburger-btn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-Down Menu Drawer -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+      <nav class="mobile-nav-list">
+        <a href="#about" class="mobile-nav-link active">Home</a>
+        <a href="#publications" class="mobile-nav-link">Publications</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#teaching" class="mobile-nav-link">Teaching</a>
+        <a href="#cv-preview" class="mobile-nav-link">CV</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true"></div>
+  </header>
+
+  <!-- WIDE ARTISTIC PANORAMIC BANNER (BALANCED HERO) -->
+  <div class="banner-wrapper">
+    <img src="cover.png?v=reverted_v37" alt="IIIT Naya Raipur Campus Cover Banner" class="banner-image" loading="eager">
+  </div>
+
+  <!-- TWO-COLUMN MAIN ACADEMIC LAYOUT -->
+  <div class="academic-page-container">
+
+    <!-- LEFT COLUMN: PROFILE SIDEBAR -->
+    <aside class="profile-sidebar">
+      <div class="profile-avatar-wrapper">
+        <img src="avatar.jpg?v=sresha_new_1" alt="Dr. Sresha Yadav" class="profile-avatar" loading="eager">
+      </div>
+
+      <h1 class="profile-name">Dr. Sresha Yadav</h1>
+      <p class="profile-title">Associate Professor</p>
+
+      <div class="profile-affiliation">
+        <p>Department of Humanities</p>
+        <p>IIIT Naya Raipur</p>
+        <p class="profile-handwritten-tagline">exploring language, cognition &amp; technology</p>
+      </div>
+
+      <!-- MOBILE ONLY: CONTACT BUTTON (Opens Left Drawer) -->
+      <div class="mobile-contact-btn-wrap">
+        <button type="button" class="mobile-contact-btn" id="mobileContactBtn" aria-label="Open Contact &amp; Profiles">
+          Contact
+        </button>
+      </div>
+
+      <!-- SCHOLARLY & SOCIAL LINKS (DESKTOP) -->
+      <ul class="profile-links-list">
+        <li>
+          <a href="https://scholar.google.co.in/citations?user=HGQLDQgAAAAJ&amp;hl=en" target="_blank" rel="noopener"
+            class="profile-link-item link-scholar">
+            <span class="link-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+            <span class="link-label">Google Scholar</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.iiitnr.ac.in/content/sresha-yadav" target="_blank" rel="noopener"
+            class="profile-link-item link-iiit">
+            <span class="link-icon"><i class="fa-solid fa-building-columns"></i></span>
+            <span class="link-label">IIIT-NR Official Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://orcid.org" target="_blank" rel="noopener" class="profile-link-item link-orcid">
+            <span class="link-icon"><i class="fa-brands fa-orcid"></i></span>
+            <span class="link-label">ORCID</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.researchgate.net" target="_blank" rel="noopener" class="profile-link-item link-rg">
+            <span class="link-icon"><i class="fa-brands fa-researchgate"></i></span>
+            <span class="link-label">ResearchGate</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="profile-link-item link-linkedin">
+            <span class="link-icon"><i class="fa-brands fa-linkedin"></i></span>
+            <span class="link-label">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:sresha@iiitnr.edu.in" class="profile-link-item link-email">
+            <span class="link-icon"><i class="fa-solid fa-envelope"></i></span>
+            <span class="link-label">sresha@iiitnr.edu.in</span>
+          </a>
+        </li>
+        <li>
+          <a href="#publications" class="profile-link-item link-patent">
+            <span class="link-icon"><i class="fa-solid fa-certificate"></i></span>
+            <span class="link-label">Indian Patent &bull; 473301</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- LEFT SLIDE-IN CONTACT / PROFILE DRAWER (MOBILE) -->
+    <div class="mobile-contact-drawer-overlay" id="mobileContactDrawerOverlay" aria-hidden="true">
+      <div class="mobile-contact-drawer-panel" id="mobileContactDrawerPanel">
+        <button class="drawer-close-btn" id="closeContactDrawerBtn" aria-label="Close Contact Drawer">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="drawer-avatar-wrap">
+          <img src="avatar.jpg?v=sresha_new_1" alt="Dr. Sresha Yadav" class="drawer-avatar">
+        </div>
+        <div class="drawer-profile-info">
+          <h3 class="drawer-profile-name">Dr. Sresha Yadav</h3>
+          <p class="drawer-profile-title">Associate Professor</p>
+          <div class="drawer-profile-affiliation">
+            <p>Department of Humanities</p>
+            <p>IIIT Naya Raipur</p>
+          </div>
+        </div>
+        <ul class="drawer-links-list">
+          <li>
+            <a href="https://scholar.google.co.in/citations?user=HGQLDQgAAAAJ&amp;hl=en" target="_blank" rel="noopener"
+              class="drawer-link-item link-scholar">
+              <span class="drawer-link-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+              <span class="drawer-link-label">Google Scholar</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.iiitnr.ac.in/content/sresha-yadav" target="_blank" rel="noopener"
+              class="drawer-link-item link-iiit">
+              <span class="drawer-link-icon"><i class="fa-solid fa-building-columns"></i></span>
+              <span class="drawer-link-label">IIIT-NR Official Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://orcid.org" target="_blank" rel="noopener" class="drawer-link-item link-orcid">
+              <span class="drawer-link-icon"><i class="fa-brands fa-orcid"></i></span>
+              <span class="drawer-link-label">ORCID</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.researchgate.net" target="_blank" rel="noopener" class="drawer-link-item link-rg">
+              <span class="drawer-link-icon"><i class="fa-brands fa-researchgate"></i></span>
+              <span class="drawer-link-label">ResearchGate</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="drawer-link-item link-linkedin">
+              <span class="drawer-link-icon"><i class="fa-brands fa-linkedin"></i></span>
+              <span class="drawer-link-label">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:sresha@iiitnr.edu.in" class="drawer-link-item link-email">
+              <span class="drawer-link-icon"><i class="fa-solid fa-envelope"></i></span>
+              <span class="drawer-link-label">Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="#publications" class="drawer-link-item link-patent drawer-section-link">
+              <span class="drawer-link-icon"><i class="fa-solid fa-certificate"></i></span>
+              <span class="drawer-link-label">Indian Patent</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN: MAIN CONTENT -->
+    <main class="content-main">
+
+      <!-- SECTION: ABOUT ME (HOME) -->
+      <section class="academic-section active-section" id="about">
+        <h2 class="section-heading">About me</h2>
+
+        <p class="section-lead-summary">
+          Empirical cognitive psychologist and digital humanist exploring language, literature, learning, and human
+          cognition through experimental and digital methods.
+        </p>
+
+        <!-- ACADEMIC CREDENTIALS STRIP -->
+        <div class="credentials-strip">
+          <div class="credential-box">
+            <span class="credential-tag">CURRENT ROLE</span>
+            <h3 class="credential-heading">Head of Department, Humanities</h3>
+            <p class="credential-subtext">Since August 2024</p>
+          </div>
+
+          <div class="credential-box">
+            <span class="credential-tag">RANK</span>
+            <h3 class="credential-heading">Associate Professor</h3>
+            <p class="credential-subtext">Since October 2024</p>
+          </div>
+
+          <div class="credential-box">
+            <span class="credential-tag">DOCTORATE</span>
+            <h3 class="credential-heading">Ph.D., IIT Roorkee</h3>
+            <p class="credential-subtext">MHRD Scholar</p>
+          </div>
+
+          <div class="credential-box">
+            <span class="credential-tag">RESEARCH</span>
+            <h3 class="credential-heading">Digital Humanities</h3>
+            <p class="credential-subtext">ELT &bull; Cognitive Psychology</p>
+          </div>
+        </div>
+
+        <div class="bio-narrative">
+          <p>
+            I am an <strong>Associate Professor</strong> and <strong>Head of the Department</strong> of Humanities at
+            the International Institute of Information Technology, Naya Raipur (IIIT-NR). My work brings together
+            cognitive psychology, digital humanities, language, and literature to understand how people read, learn,
+            communicate, and interact with technology.
+          </p>
+
+          <p>
+            I earned my <strong>Ph.D.</strong> from <strong>IIT Roorkee</strong> in 2017, with research focused on
+            Indian English literature and cognitive reading frameworks. At IIIT-NR, I also serve as
+            <strong>Lab-in-Charge</strong> of the Language Laboratory, working on digital language learning and
+            communicative training.
+          </p>
+
+          <p>
+            My research explores <strong>eye-tracking</strong> and reading cognition, examining how typography, digital
+            formats, and visual presentation influence reading behaviour and efficiency. My work in pedagogical
+            technology has also resulted in an <strong>Indian Patent (No. 473301)</strong> for a pedagogical training
+            tool and methodology.
+          </p>
+
+          <p>
+            Beyond cognitive psychology, my scholarship spans gender studies, ecocritical literature, and work
+            behaviour, with interests ranging from Himalayan literature and Rabindranath Tagore's fiction to human
+            communication and educational technology. I use experimental, psychometric, and qualitative approaches to
+            investigate how people learn, communicate, and engage with digital environments.
+          </p>
+
+          <p class="section-referral-text">
+            Explore my <a href="#publications" class="inline-jump">publications</a>, <a href="#projects"
+              class="inline-jump">projects</a>, and <a href="#teaching" class="inline-jump">teaching</a> to learn more
+            about my research and academic work.
+          </p>
+          <div class="author-signature">— Sresha</div>
+        </div>
+      </section>
+
+      <!-- SECTION: PUBLICATIONS & PATENTS (EDITORIAL SCHOLARLY LIST) -->
+      <section class="academic-section" id="publications">
+        <div class="editorial-page-header">
+          <h2 class="editorial-section-heading">Publications &amp; Patents</h2>
+          <p class="editorial-section-desc">Selected research, publications, and intellectual property.</p>
+        </div>
+
+        <div class="scholarly-entries-list">
+
+          <!-- Entry 1: 2024 Patent (Chronological Top) -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2024</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag patent-tag">INDIAN PATENT &bull; GRANTED</div>
+              <h3 class="entry-title">
+                Innovative Pedagogical Apparatus &amp; Assistive Learning Device for English Language Teaching (ELT)
+              </h3>
+              <p class="entry-authors">M. Ojha &amp; <strong>S. Yadav</strong></p>
+              <p class="entry-venue">Indian Patent Office &bull; Patent No. 473301 (App No. 202221041826, Granted 2024)
+              </p>
+              <div class="entry-actions">
+                <button class="scholarly-btn cite-btn" data-id="pub-2">Cite Patent</button>
+                <a href="#about" class="scholarly-btn link-btn">Patent No. 473301</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Entry 2: 2023 Eye Tracking -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2023</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">CONFERENCE PROCEEDINGS</div>
+              <h3 class="entry-title">
+                Using Eye-Tracking Technology to Study the Impact of Font Types on Online Reading Efficiency
+              </h3>
+              <p class="entry-authors">D. Tripathi, Y. Raj, A. Singh, &amp; <strong>S. Yadav</strong></p>
+              <p class="entry-venue"><em>International Colloquium on HCI &amp; Digital Pedagogies</em></p>
+              <div class="entry-actions">
+                <button class="scholarly-btn cite-btn" data-id="pub-4">Cite</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Entry 3: 2021 Team Innovation -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2021</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">JOURNAL ARTICLE</div>
+              <h3 class="entry-title">
+                <a href="https://doi.org/10.1108/IJIS-09-2020-0164" target="_blank" rel="noopener">
+                  Team-member exchange and innovative work behaviour: The role of psychological empowerment and creative
+                  self-efficacy
+                </a>
+              </h3>
+              <p class="entry-authors">V. Ghosh, M. Bharadwaja, <strong>S. Yadav</strong>, &amp; G. Kabra</p>
+              <p class="entry-venue"><em>International Journal of Innovation Science</em>, 13(4), 481–499</p>
+              <div class="entry-actions">
+                <button class="scholarly-btn cite-btn" data-id="pub-1">Cite</button>
+                <a href="https://doi.org/10.1108/IJIS-09-2020-0164" target="_blank" rel="noopener"
+                  class="scholarly-btn link-btn">DOI <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Entry 4: 2020 Entrepreneurship -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2020</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">JOURNAL ARTICLE</div>
+              <h3 class="entry-title">
+                <a href="https://doi.org/10.17010/amcije/2020/v5i2/152918" target="_blank" rel="noopener">
+                  A Study of Influence Tactics Used by Entrepreneurs
+                </a>
+              </h3>
+              <p class="entry-authors">L. Singh &amp; <strong>S. Yadav</strong></p>
+              <p class="entry-venue"><em>AMC Indian Journal of Entrepreneurship</em>, 5(2), 24–38</p>
+              <div class="entry-actions">
+                <button class="scholarly-btn cite-btn" data-id="pub-5">Cite</button>
+                <a href="https://doi.org/10.17010/amcije/2020/v5i2/152918" target="_blank" rel="noopener"
+                  class="scholarly-btn link-btn">DOI <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Entry 5: 2018 Stress & Health -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2018</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">JOURNAL ARTICLE</div>
+              <h3 class="entry-title">
+                <a href="https://doi.org/10.20319/pijss.2018.42.10841096" target="_blank" rel="noopener">
+                  Impact of Perceived Stress on General Health: A Study on Engineering Students
+                </a>
+              </h3>
+              <p class="entry-authors"><strong>S. Ghosh (Yadav)</strong>, V. Ghosh, &amp; I. Kumar</p>
+              <p class="entry-venue"><em>PEOPLE: International Journal of Social Sciences</em>, 4(2), 1084–1096</p>
+              <div class="entry-actions">
+                <button class="scholarly-btn cite-btn" data-id="pub-3">Cite</button>
+                <a href="https://doi.org/10.20319/pijss.2018.42.10841096" target="_blank" rel="noopener"
+                  class="scholarly-btn link-btn">DOI <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Entry 6: 2017 Tagore Literary Criticism -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2017</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">JOURNAL ARTICLE</div>
+              <h3 class="entry-title">
+                Emancipation of Women in Tagore’s The Wife’s Letter (Streer Patra)
+              </h3>
+              <p class="entry-authors"><strong>S. Ghosh (Yadav)</strong></p>
+              <p class="entry-venue"><em>Journal of Teaching &amp; Research in English Literature</em>, 9(2), 14–22</p>
+              <div class="entry-actions">
+                <button class="scholarly-btn cite-btn" data-id="pub-6">Cite</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Entry 7: 2016 Ruskin Bond Ecocriticism -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2016</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">JOURNAL ARTICLE</div>
+              <h3 class="entry-title">
+                An Ecocritical Reading of Ruskin Bond’s Our Trees Still Grow in Dehra
+              </h3>
+              <p class="entry-authors"><strong>S. Ghosh (Yadav)</strong></p>
+              <p class="entry-venue"><em>Gnosis: International Journal of English Language &amp; Literature</em>, 1(3),
+                45–56</p>
+              <div class="entry-actions">
+                <button class="scholarly-btn cite-btn" data-id="pub-7">Cite</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- SECTION: PROJECTS & LABS (EDITORIAL SCHOLARLY LIST) -->
+      <section class="academic-section" id="projects">
+        <div class="editorial-page-header">
+          <h2 class="editorial-section-heading">Funded Projects &amp; Labs</h2>
+          <p class="editorial-section-desc">Selected research projects, institutional roles, and academic facilities.
+          </p>
+        </div>
+
+        <div class="scholarly-entries-list">
+
+          <!-- Project 1: Government Grant -->
+          <article class="scholarly-entry">
+            <div class="entry-year">2020–21</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">GOVERNMENT-SPONSORED RESEARCH</div>
+              <h3 class="entry-title">
+                MSME Resilience Strategies during COVID-19
+              </h3>
+              <p class="entry-authors"><strong>Funding Agency:</strong> State Planning Commission, Government of
+                Chhattisgarh</p>
+              <p class="entry-venue">
+                An empirical investigation examining organizational coping behaviors, psychological resilience, and
+                adaptive business models among micro and small enterprises during the pandemic.
+              </p>
+              <div class="entry-actions">
+                <a href="https://www.iiitnr.ac.in/content/funded-initiative" target="_blank" rel="noopener"
+                  class="scholarly-btn link-btn">View Initiative <i
+                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Lab 1: Institutional Facility -->
+          <article class="scholarly-entry">
+            <div class="entry-year">FACILITY</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">INSTITUTIONAL ROLE</div>
+              <h3 class="entry-title">
+                Multimedia Language Laboratory
+              </h3>
+              <p class="entry-authors"><strong>Role:</strong> Lab-in-Charge &bull; IIIT Naya Raipur</p>
+              <p class="entry-venue">
+                A language-learning and research facility supporting computer-assisted language learning, eye-tracking,
+                voice neutralization, and interactive pedagogical workstations.
+              </p>
+              <div class="entry-actions">
+                <a href="https://www.iiitnr.ac.in/content/language-lab" target="_blank" rel="noopener"
+                  class="scholarly-btn link-btn">Learn More <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- SECTION: TEACHING (EDITORIAL SCHOLARLY LIST) -->
+      <section class="academic-section" id="teaching">
+        <div class="editorial-page-header">
+          <h2 class="editorial-section-heading">Teaching &amp; Pedagogy</h2>
+          <p class="editorial-section-desc">Undergraduate (B.Tech) and doctoral (Ph.D.) courses instructed at IIIT Naya
+            Raipur.</p>
+        </div>
+
+        <div class="scholarly-entries-list">
+
+          <article class="scholarly-entry">
+            <div class="entry-year">UG</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">CORE CURRICULUM</div>
+              <h3 class="entry-title">HM 101: Professional Communication &amp; Language Lab</h3>
+              <p class="entry-venue">Technical writing, oral presentations, phonetic neutralization, and corporate
+                discourse.</p>
+            </div>
+          </article>
+
+          <article class="scholarly-entry">
+            <div class="entry-year">UG</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">INTERDISCIPLINARY ELECTIVE</div>
+              <h3 class="entry-title">HM 202: Cognitive Psychology &amp; Human Behavior</h3>
+              <p class="entry-venue">Perception, memory, cognitive ergonomics, problem-solving, and emotional
+                intelligence in engineering.</p>
+            </div>
+          </article>
+
+          <article class="scholarly-entry">
+            <div class="entry-year">Ph.D.</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">DOCTORAL PROGRAM</div>
+              <h3 class="entry-title">HM 801: Research Methodology in Humanities &amp; Social Sciences</h3>
+              <p class="entry-venue">Quantitative psychometrics, qualitative critical frameworks, and empirical design
+                for doctoral scholars.</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- SECTION: CURRICULUM VITAE (CV) -->
+      <section class="academic-section" id="cv-preview">
+        <div class="editorial-page-header">
+          <h2 class="editorial-section-heading">Curriculum Vitae</h2>
+          <p class="editorial-section-desc">Academic profile, qualifications, and scholarly career dossier.</p>
+        </div>
+
+        <div class="scholarly-entries-list">
+
+          <article class="scholarly-entry">
+            <div class="entry-year">CURRENT</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">HEAD &bull; ASSOCIATE PROFESSOR</div>
+              <h3 class="entry-title">Department of Humanities, IIIT Naya Raipur</h3>
+              <p class="entry-authors">Over 10+ years of high-impact research and pedagogy spanning Cognitive
+                Psychology, Eye-Tracking Reading Cognition, Digital Humanities, and English Language Teaching (ELT).</p>
+              <p class="entry-venue">Holder of Granted Indian Patent No. 473301 &bull; Ph.D. from IIT Roorkee (MHRD
+                Scholar).</p>
+              <div class="entry-actions">
+                <a href="https://www.iiitnr.ac.in/newspace/pdf/CVsresha.pdf" target="_blank" rel="noopener"
+                  class="scholarly-btn link-btn"><i class="fa-solid fa-file-pdf"></i> Download Official PDF CV</a>
+                <a href="https://www.iiitnr.ac.in/content/sresha-yadav" target="_blank" rel="noopener"
+                  class="scholarly-btn link-btn">Official Institutional Dossier <i
+                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- SECTION: CONTACT & OFFICE -->
+      <section class="academic-section" id="contact">
+        <div class="editorial-page-header">
+          <h2 class="editorial-section-heading">Contact &amp; Bureau</h2>
+          <p class="editorial-section-desc">Academic correspondence, institutional office, and telephone bureau.</p>
+        </div>
+
+        <div class="scholarly-entries-list">
+
+          <article class="scholarly-entry">
+            <div class="entry-year">OFFICE</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">INSTITUTIONAL LOCATION</div>
+              <h3 class="entry-title">Department of Humanities &amp; Social Sciences</h3>
+              <p class="entry-authors">Dr. S. P. Mukherjee International Institute of Information Technology, Naya
+                Raipur</p>
+              <p class="entry-venue">Plot No. 7, Sector 24, Atal Nagar – 493661, Chhattisgarh, India</p>
+            </div>
+          </article>
+
+          <article class="scholarly-entry">
+            <div class="entry-year">EMAIL</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">PRIMARY CORRESPONDENCE</div>
+              <h3 class="entry-title"><a href="mailto:sresha@iiitnr.edu.in">sresha@iiitnr.edu.in</a></h3>
+              <p class="entry-venue">Official institutional mailbox for research collaborations, student inquiries, and
+                academic requests.</p>
+            </div>
+          </article>
+
+          <article class="scholarly-entry">
+            <div class="entry-year">PHONE</div>
+            <div class="entry-body">
+              <div class="entry-meta-tag">BUREAU EXTENSION</div>
+              <h3 class="entry-title">+91-771-2474052</h3>
+              <p class="entry-venue">Working hours: 9:30 AM – 6:00 PM IST (Monday to Friday)</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- COMPACT INTENTIONAL ACADEMIC FOOTER -->
+  <footer class="academic-footer">
+    <div class="footer-container">
+      
+      <!-- Top Academic Identity & Links Strip -->
+      <div class="footer-top-strip">
+        <div class="footer-identity">
+          <span class="footer-name">Dr. Sresha Yadav</span>
+          <span class="footer-affiliation">Associate Professor &bull; Department of Humanities &bull; IIIT Naya Raipur</span>
+        </div>
+        
+        <div class="footer-academic-links">
+          <a href="https://scholar.google.co.in/citations?user=HGQLDQgAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://www.researchgate.net" target="_blank" rel="noopener">ResearchGate</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <!-- Bottom Minimal Legal & Privacy Row -->
+      <div class="footer-bottom-row">
+        <span class="footer-copyright">&copy; 2026 Dr. Sresha Yadav</span>
+        <div class="footer-legal-links">
+          <a href="#about" class="footer-privacy-link">Privacy Policy</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Citation Dialog Modal -->
+  <dialog id="citationDialog" class="minimal-dialog">
+    <div class="dialog-inner">
+      <div class="dialog-header">
+        <h3 class="dialog-title" id="citeDialogTitle">Citation</h3>
+        <button id="closeDialogBtn" class="close-btn" aria-label="Close">&times;</button>
+      </div>
+      <div class="dialog-tabs">
+        <button class="tab-btn active" data-format="bibtex">BibTeX</button>
+        <button class="tab-btn" data-format="apa">APA 7th</button>
+      </div>
+      <pre class="citation-code" id="citationCodeBlock"></pre>
+      <div class="dialog-footer">
+        <button id="copyCiteBtn" class="copy-action-btn"><i class="fa-regular fa-copy"></i> Copy Citation</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Kinetic Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" title="Back to top" aria-label="Scroll to top">
+    <svg class="progress-ring" width="44" height="44" viewBox="0 0 44 44">
+      <circle class="progress-ring-bg" stroke-width="2.5" r="18" cx="22" cy="22" />
+      <circle class="progress-ring-circle" id="progressRingCircle" stroke-width="2.5" r="18" cx="22" cy="22" />
+    </svg>
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Minimal Toast -->
+  <div id="toast" class="minimal-toast" role="status" aria-live="polite">Copied to clipboard</div>
+
+  <script src="app.js?v=clean_profile_drawer_v1"></script>
+</body>
+
+</html>
