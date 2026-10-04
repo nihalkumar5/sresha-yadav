@@ -469,16 +469,16 @@ a:visited {
 }
 
 .profile-avatar-wrapper {
-  margin-top: -110px;
-  margin-bottom: 1.25rem;
+  margin-top: -85px;
+  margin-bottom: 1.15rem;
   position: relative;
   z-index: 10;
   width: 100%;
 }
 
 .profile-avatar {
-  width: 220px;
-  height: 255px;
+  width: 175px;
+  height: 205px;
   object-fit: cover;
   object-position: center top;
   border: 4px solid #ffffff;
