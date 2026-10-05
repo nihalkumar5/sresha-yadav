@@ -701,10 +701,10 @@ a:visited {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(480px circle at var(--mouse-x) var(--mouse-y),
-      rgba(155, 106, 47, 0.22),
-      rgba(155, 106, 47, 0.06) 45%,
-      transparent 75%);
+  background: radial-gradient(250px circle at var(--mouse-x) var(--mouse-y),
+      rgba(155, 106, 47, 0.28),
+      rgba(155, 106, 47, 0.08) 40%,
+      transparent 70%);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.22s ease;
@@ -776,10 +776,10 @@ a:visited {
 }
 
 [data-theme="dark"] .credentials-strip::before {
-  background: radial-gradient(480px circle at var(--mouse-x) var(--mouse-y),
-      rgba(215, 168, 91, 0.35),
-      rgba(215, 168, 91, 0.12) 45%,
-      transparent 75%);
+  background: radial-gradient(250px circle at var(--mouse-x) var(--mouse-y),
+      rgba(215, 168, 91, 0.42),
+      rgba(215, 168, 91, 0.12) 40%,
+      transparent 70%);
 }
 
 [data-theme="dark"] .credentials-strip:hover {
