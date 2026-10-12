@@ -20,16 +20,6 @@ const citations = {
   doi={10.1108/IJIS-09-2020-0164}
 }`
   },
-  "pub-2": {
-    title: "Innovative Pedagogical Apparatus (Patent No. 473301)",
-    apa: "Ojha, M., & Yadav, S. (2023). Innovative Pedagogical Apparatus / Assistive Learning Device (Indian Patent No. 473301). Indian Patent Office.",
-    bibtex: `@misc{ojha2023patent,
-  title={Innovative Pedagogical Apparatus / Assistive Learning Device},
-  author={Ojha, M. and Yadav, Sresha},
-  year={2023},
-  note={Indian Patent No. 473301, Application No. 202221041826}
-}`
-  },
   "pub-3": {
     title: "Impact of Perceived Stress on General Health",
     apa: "Ghosh, S., Ghosh, V., & Kumar, I. (2018). Impact of Perceived Stress on General Health: A Study on Engineering Students. PEOPLE: International Journal of Social Sciences, 4(2), 1084-1096.",
@@ -92,6 +82,221 @@ const citations = {
   number={3},
   pages={45--56},
   year={2016}
+}`
+  },
+  "pub-8": {
+    title: "Best Paper Award — ICCPE 2024",
+    apa: "Yadav, S. (2024). Interdisciplinary Perspectives in Computational Humanities and Social Behavior. In Proceedings of the International Conference on Communication, Psychology, and Education (ICCPE 2024). [Best Paper Award].",
+    bibtex: `@inproceedings{yadav2024iccpe,
+  title={Interdisciplinary Perspectives in Computational Humanities and Social Behavior},
+  author={Yadav, Sresha},
+  booktitle={Proceedings of the International Conference on Communication, Psychology, and Education (ICCPE 2024)},
+  year={2024},
+  note={Best Paper Award}
+}`
+  },
+  "pub-j1": {
+    title: "Thematic Analysis of Advertisement Using NVivo",
+    apa: "Yadav, S. (2026). Thematic Analysis of Advertisement Using NVivo. IEEE Xplore. https://doi.org/10.1109/GCON69192.2026.11648868",
+    bibtex: `@article{yadav2026thematic,
+  title={Thematic Analysis of Advertisement Using NVivo},
+  author={Yadav, Sresha},
+  journal={IEEE Xplore},
+  year={2026},
+  doi={10.1109/GCON69192.2026.11648868}
+}`
+  },
+  "pub-j2": {
+    title: "Women Unwriting Patriarchy",
+    apa: "Yadav, S. (2026). Women Unwriting Patriarchy: Abortion, Memory, and Female Identity in Two Canadian Novels—Margaret Atwood's Surfacing (1972) and Marian Engel's Sarah Bastard's Notebook (1974). Canadian Journal of Language and Literature Studies (CJLLS), 6(2), 77–90. https://doi.org/10.53103/cjlls.v6i2.269",
+    bibtex: `@article{yadav2026women,
+  title={Women Unwriting Patriarchy: Abortion, Memory, and Female Identity in Two Canadian Novels---Margaret Atwood's Surfacing (1972) and Marian Engel's Sarah Bastard's Notebook (1974)},
+  author={Yadav, Sresha},
+  journal={Canadian Journal of Language and Literature Studies},
+  volume={6},
+  number={2},
+  pages={77--90},
+  year={2026},
+  doi={10.53103/cjlls.v6i2.269}
+}`
+  },
+  "pub-j3": {
+    title: "The Scarlet Brand: Shame, Identity, and the Commodification of Women's Bodies",
+    apa: "Yadav, S. (2026). The Scarlet Brand: Shame, Identity, and the Commodification of Women's Bodies in Hillary Jordan's When She Woke. Canadian Journal of Language and Literature Studies (CJLLS), 6(3), 1–19. https://doi.org/10.53103/cjlls.v6i3.275",
+    bibtex: `@article{yadav2026scarlet,
+  title={The Scarlet Brand: Shame, Identity, and the Commodification of Women's Bodies in Hillary Jordan's When She Woke},
+  author={Yadav, Sresha},
+  journal={Canadian Journal of Language and Literature Studies},
+  volume={6},
+  number={3},
+  pages={1--19},
+  year={2026},
+  doi={10.53103/cjlls.v6i3.275}
+}`
+  },
+  "pub-j4": {
+    title: "Reproductive Rights Are Human Rights",
+    apa: "Yadav, S. (Accepted). Reproductive Rights Are Human Rights: Usurp of Female Agency and Trauma of Politicized Bodies. Routledge, Taylor and Francis.",
+    bibtex: `@article{yadav_reproductiverights,
+  title={Reproductive Rights Are Human Rights: Usurp of Female Agency and Trauma of Politicized Bodies},
+  author={Yadav, Sresha},
+  journal={Routledge Publication, Taylor and Francis},
+  note={Accepted for Publication}
+}`
+  },
+  "pub-j5": {
+    title: "The Happiness Paradox: Relationship Status on Well-Being of Engineering Students",
+    apa: "Yadav, S. (2025). The Happiness Paradox: The Influence of Relationship Status on Well-Being of Undergraduate Engineering Students. Recent Educational and Psychological Researches. https://doi.org/10.5281/zenodo.15773265",
+    bibtex: `@article{yadav2025happiness,
+  title={The Happiness Paradox: The Influence of Relationship Status on Well-Being of Undergraduate Engineering Students},
+  author={Yadav, Sresha},
+  journal={Recent Educational and Psychological Researches},
+  year={2025},
+  doi={10.5281/zenodo.15773265}
+}`
+  },
+  "pub-j6": {
+    title: "A Study on the Role of Personality on Individual's Stylistic Choices",
+    apa: "Yadav, S. (2024). A Study on the Role of Personality and Associated Factors on Individual's Stylistic Choices. International Journal of Cognitive and Ergonomic Education (IJCEE), 13(1), 133–137. https://doi.org/10.1018/IJCEE.2025.13.1.646",
+    bibtex: `@article{yadav2024personality,
+  title={A Study on the Role of Personality and Associated Factors on Individual's Stylistic Choices},
+  author={Yadav, Sresha},
+  journal={International Journal of Cognitive and Ergonomic Education},
+  volume={13},
+  number={1},
+  pages={133--137},
+  year={2024},
+  doi={10.1018/IJCEE.2025.13.1.646}
+}`
+  },
+  "pub-j8": {
+    title: "The Role of Students' Perception of Classroom Atmospherics on Second Language Learning",
+    apa: "Yadav, S. (2022). The Role of Students' Perception of Classroom Atmospherics on Second Language Learning. European Journal of Behavioural Sciences, 4(4), 40–47.",
+    bibtex: `@article{yadav2022classroom,
+  title={The Role of Students' Perception of Classroom Atmospherics on Second Language Learning},
+  author={Yadav, Sresha},
+  journal={European Journal of Behavioural Sciences},
+  volume={4},
+  number={4},
+  pages={40--47},
+  year={2022}
+}`
+  },
+  "pub-j12": {
+    title: "Exploring Socio-Environmental Dimensions in Arvind Adiga's The White Tiger",
+    apa: "Ghosh (Yadav), S. (2015). Exploring Socio-Environmental Dimensions in Arvind Adiga's The White Tiger. Subaltern Speak: An International Journal of Postcolonial Studies, 4(1), 76–81.",
+    bibtex: `@article{ghosh2015whitetiger,
+  title={Exploring Socio-Environmental Dimensions in Arvind Adiga's The White Tiger},
+  author={Ghosh (Yadav), Sresha},
+  journal={Subaltern Speak: An International Journal of Postcolonial Studies},
+  volume={4},
+  number={1},
+  pages={76--81},
+  year={2015}
+}`
+  },
+  "pub-j14": {
+    title: "Quest for Identity: A Study of Anita Nair's Cut-like Wound",
+    apa: "Ghosh (Yadav), S. (2014). Quest for Identity: A Study of Anita Nair's Cut-like Wound. Asian Journal of English Studies, 3(1), 208–213.",
+    bibtex: `@article{ghosh2014anitanair,
+  title={Quest for Identity: A Study of Anita Nair's Cut-like Wound},
+  author={Ghosh (Yadav), Sresha},
+  journal={Asian Journal of English Studies},
+  volume={3},
+  number={1},
+  pages={208--213},
+  year={2014}
+}`
+  },
+  "pub-j15": {
+    title: "Graham Greene's The Power and the Glory: An Interdisciplinary Perspective",
+    apa: "Ghosh (Yadav), S. (2013). Graham Greene's The Power and the Glory: An Interdisciplinary Perspective. Re-Markings, 12(12), 94–99.",
+    bibtex: `@article{ghosh2013greene,
+  title={Graham Greene's The Power and the Glory: An Interdisciplinary Perspective},
+  author={Ghosh (Yadav), Sresha},
+  journal={Re-Markings},
+  volume={12},
+  number={12},
+  pages={94--99},
+  year={2013}
+}`
+  },
+  "pub-j16": {
+    title: "A Study of Graham Greene's Brighton Rock: Case-History of a Killer",
+    apa: "Ghosh (Yadav), S. (2012). A Study of Graham Greene's Brighton Rock: Case-History of a Killer. Atlantic Literary Review (Quarterly), 13(4), 30–36.",
+    bibtex: `@article{ghosh2012brighton,
+  title={A Study of Graham Greene's Brighton Rock: Case-History of a Killer},
+  author={Ghosh (Yadav), Sresha},
+  journal={Atlantic Literary Review},
+  volume={13},
+  number={4},
+  pages={30--36},
+  year={2012}
+}`
+  },
+  "pub-j17": {
+    title: "Victim of Fate or Choice: A Study of Greene's The Heart of the Matter",
+    apa: "Ghosh (Yadav), S. (2012). Victim of Fate or Choice: A Study of Greene's The Heart of the Matter. 3L: The Southeast Asian Journal of English Language Studies, 18(4), 59–66.",
+    bibtex: `@article{ghosh2012heart,
+  title={Victim of Fate or Choice: A Study of Greene's The Heart of the Matter},
+  author={Ghosh (Yadav), Sresha},
+  journal={3L: The Southeast Asian Journal of English Language Studies},
+  volume={18},
+  number={4},
+  pages={59--66},
+  year={2012}
+}`
+  },
+  "pub-j18": {
+    title: "Major Trends of Criticism Regarding Graham Greene's Novels",
+    apa: "Ghosh (Yadav), S. (2012). Major Trends of Criticism Regarding Graham Greene's Novels. Atlantic Literary Review (Quarterly), 13(2), 38–51.",
+    bibtex: `@article{ghosh2012greene_trends,
+  title={Major Trends of Criticism Regarding Graham Greene's Novels},
+  author={Ghosh (Yadav), Sresha},
+  journal={Atlantic Literary Review},
+  volume={13},
+  number={2},
+  pages={38--51},
+  year={2012}
+}`
+  },
+  "pub-j19": {
+    title: "Exploring Criminological Perspectives in Anita Desai's Cry, The Peacock",
+    apa: "Ghosh (Yadav), S. (2011). Exploring Criminological Perspectives in Anita Desai's Cry, The Peacock. The IUP Journal of English Studies, 6(3), 51–55.",
+    bibtex: `@article{ghosh2011desai,
+  title={Exploring Criminological Perspectives in Anita Desai's Cry, The Peacock},
+  author={Ghosh (Yadav), Sresha},
+  journal={The IUP Journal of English Studies},
+  volume={6},
+  number={3},
+  pages={51--55},
+  year={2011}
+}`
+  },
+  "pub-j20": {
+    title: "A Framework for Authorship Identification of Questioned Document",
+    apa: "Ghosh (Yadav), S. (2011). A Framework for Authorship Identification of Questioned Document: Forensic and Linguistic Convergence. Modern Journal of Applied Linguistics (MJAL), 3(1), 1–7.",
+    bibtex: `@article{ghosh2011authorship,
+  title={A Framework for Authorship Identification of Questioned Document: Forensic and Linguistic Convergence},
+  author={Ghosh (Yadav), Sresha},
+  journal={Modern Journal of Applied Linguistics},
+  volume={3},
+  number={1},
+  pages={1--7},
+  year={2011}
+}`
+  },
+  "pub-j21": {
+    title: "Character Analysis of Andrews in Graham Greene's The Man Within",
+    apa: "Ghosh (Yadav), S. (2010). Character Analysis of Andrews in Graham Greene's The Man Within. Language in India, 10(12), 227–233.",
+    bibtex: `@article{ghosh2010andrews,
+  title={Character Analysis of Andrews in Graham Greene's The Man Within},
+  author={Ghosh (Yadav), Sresha},
+  journal={Language in India},
+  volume={10},
+  number={12},
+  pages={227--233},
+  year={2010}
 }`
   }
 };
