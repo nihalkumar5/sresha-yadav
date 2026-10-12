@@ -680,49 +680,47 @@ a:visited {
 .credentials-strip {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.65rem;
-  background-color: #f1f5f9;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 0.65rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-medium);
+  border-radius: 6px;
+  padding: 1.25rem 1.4rem;
   margin-top: 1.35rem;
   margin-bottom: 2.25rem;
+  box-shadow: var(--shadow-sm);
   position: relative;
   overflow: hidden;
+  --mouse-x: -999px;
+  --mouse-y: -999px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .credentials-strip::before {
   display: none;
 }
 
+.credentials-strip:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+}
+
 .credential-box {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 1rem 1.15rem;
+  padding: 0 1.25rem;
+  border-right: 1px solid var(--border-light);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   position: relative;
   z-index: 2;
-  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
-  cursor: default;
 }
 
-.credential-box:hover {
-  transform: translateY(-3px);
-  border-color: #1d4ed8;
-  box-shadow: 0 10px 22px -4px rgba(29, 78, 216, 0.12), 0 4px 6px -2px rgba(15, 23, 42, 0.04);
+.credential-box:first-child {
+  padding-left: 0;
 }
 
-.credential-box:hover .credential-tag {
-  color: #1d4ed8;
-  letter-spacing: 0.14em;
-}
-
-.credential-box:hover .credential-heading {
-  color: #1d4ed8;
+.credential-box:last-child,
+[data-theme="dark"] .credential-box:last-child {
+  border-right: none !important;
+  padding-right: 0;
 }
 
 .credential-tag {
@@ -731,10 +729,9 @@ a:visited {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #64748b;
+  color: var(--text-muted);
   margin-bottom: 0.35rem;
   display: block;
-  transition: color 0.2s ease, letter-spacing 0.2s ease;
 }
 
 .credential-heading {
@@ -742,43 +739,58 @@ a:visited {
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.25;
-  color: #0f172a;
+  color: var(--text-main);
   margin-bottom: 0.25rem;
-  transition: color 0.2s ease;
 }
 
 .credential-subtext {
   font-family: var(--font-base);
   font-size: 0.8rem;
   font-style: italic;
-  color: #64748b;
+  color: var(--text-muted);
   line-height: 1.35;
 }
 
-/* Dark Mode Credentials Card (Solid Colors, No Gradients) */
+/* Dark Mode Credentials Card: Exact Spec (#151515 + 1px #1e293b, No Double Line) */
 [data-theme="dark"] .credentials-strip {
-  background-color: #0b0f19;
-  border-color: #1e293b;
+  background-color: #151515;
+  border: 1px solid #1e293b;
+  box-shadow: none;
+}
+
+[data-theme="dark"] .credentials-strip::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(280px circle at var(--mouse-x) var(--mouse-y),
+      rgba(56, 189, 248, 0.18),
+      rgba(56, 189, 248, 0.05) 40%,
+      transparent 70%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease;
+  z-index: 1;
+}
+
+[data-theme="dark"] .credentials-strip:hover::before {
+  opacity: 1;
+}
+
+[data-theme="dark"] .credentials-strip:hover {
+  border-color: rgba(56, 189, 248, 0.35);
+  box-shadow: 0 0 25px rgba(2, 132, 199, 0.12);
 }
 
 [data-theme="dark"] .credential-box {
-  background-color: #111827;
-  border-color: #1e293b;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid #1e293b;
 }
 
-[data-theme="dark"] .credential-box:hover {
-  background-color: #162032;
-  border-color: #38bdf8;
-  box-shadow: 0 10px 24px -4px rgba(0, 0, 0, 0.5), 0 0 16px rgba(56, 189, 248, 0.15);
-}
-
-[data-theme="dark"] .credential-box:hover .credential-tag {
-  color: #38bdf8;
-}
-
-[data-theme="dark"] .credential-box:hover .credential-heading {
-  color: #38bdf8;
+[data-theme="dark"] .credential-box:last-child {
+  border-right: none !important;
 }
 
 [data-theme="dark"] .credential-tag {
