@@ -298,6 +298,123 @@ const citations = {
   pages={227--233},
   year={2010}
 }`
+  },
+  "pub-b1": {
+    title: "Babies or Biological Assets: Bioethical Rendition of Foetal Farming",
+    apa: "Yadav, S. (2025). Babies or Biological Assets: Bioethical Rendition of Foetal Farming to Decelerate Ageing as Showcased in the Movie Yashoda. In Experience, Imagination and Beyond: Reflections for a Sustainable Tomorrow (pp. 131–140). ISBN: 978-81-95848348.",
+    bibtex: `@incollection{yadav2025babies,
+  title={Babies or Biological Assets: Bioethical Rendition of Foetal Farming to Decelerate Ageing as Showcased in the Movie Yashoda},
+  author={Yadav, Sresha},
+  booktitle={Experience, Imagination and Beyond: Reflections for a Sustainable Tomorrow},
+  pages={131--140},
+  year={2025},
+  isbn={978-81-95848348}
+}`
+  },
+  "pub-b2": {
+    title: "Reproductive Rights Are Human Rights: Usurp of Female Agency",
+    apa: "Yadav, S. (2025). Reproductive Rights Are Human Rights: Usurp of Female Agency and Trauma of Politicized Bodies. Routledge Publication.",
+    bibtex: `@incollection{yadav2025reproductive,
+  title={Reproductive Rights Are Human Rights: Usurp of Female Agency and Trauma of Politicized Bodies},
+  author={Yadav, Sresha},
+  booktitle={Routledge Critical Studies in Gender and Human Rights},
+  publisher={Routledge},
+  year={2025}
+}`
+  },
+  "pub-b3": {
+    title: "An Exploratory Study to Assess Language Preference of a Multilingual Individual",
+    apa: "Yadav, S. (2022). An Exploratory Study to Assess Language Preference of a Multilingual Individual to Perform Cognitive Tasks. In I. Roychowdhury & S. Narula (Eds.), Language, Culture and Digital Media. Amity University Publication. ISBN: 978-93-5445-104-1.",
+    bibtex: `@incollection{yadav2022languagepreference,
+  title={An Exploratory Study to Assess Language Preference of a Multilingual Individual to Perform Cognitive Tasks},
+  author={Yadav, Sresha},
+  editor={Roychowdhury, Iti and Narula, Sumit},
+  booktitle={Language, Culture and Digital Media},
+  publisher={Amity University Publication},
+  isbn={978-93-5445-104-1}
+}`
+  },
+  "pub-b4": {
+    title: "Reshaping Mind and Behaviour: Media and its Impacts",
+    apa: "Yadav, S. (2012). Reshaping Mind and Behaviour: Media and its Impacts. In G. P. Agrawal, H. Khanna, A. P. Tripathi, & P. Shukla (Eds.), Media and New World Order (pp. 194–199). Wisdom Publications. ISBN: 978-93-81505-19-9.",
+    bibtex: `@incollection{yadav2012reshaping,
+  title={Reshaping Mind and Behaviour: Media and its Impacts},
+  author={Yadav, Sresha},
+  editor={Agrawal, G. P. and Khanna, Harish and Tripathi, Aditya P. and Shukla, Preeti},
+  booktitle={Media and New World Order},
+  pages={194--199},
+  publisher={Wisdom Publications},
+  address={Delhi},
+  year={2012},
+  isbn={978-93-81505-19-9}
+}`
+  },
+  "pub-c1": {
+    title: "Font Type Analysis for Online Reading Using Eye Tracking Technology",
+    apa: "Tripathi, D., Singh, A., Raj, Y., & Yadav nee Ghosh, S. (Accepted). Font Type Analysis for Online Reading Using Eye Tracking Technology. Lecture Notes in Networks and Systems. Springer.",
+    bibtex: `@inproceedings{tripathi2025fonttype,
+  title={Font Type Analysis for Online Reading Using Eye Tracking Technology},
+  author={Tripathi, Dhyanendra and Singh, Anurag and Raj, Yash and Yadav nee Ghosh, Sresha},
+  booktitle={Lecture Notes in Networks and Systems},
+  publisher={Springer},
+  year={2025},
+  note={Accepted, Scopus Indexed}
+}`
+  },
+  "pub-c2": {
+    title: "Higher-order Statistical Features-based Machine Learning Approach for Evaluating Advertisement Effectiveness",
+    apa: "Karthik, C., Vedanarayana, T. S., Singh, A., & Yadav nee Ghosh, S. (Submitted). Higher-order Statistical Features-based Machine Learning Approach for Evaluating Advertisement Effectiveness through Eye-Tracking Data Analysis. Lecture Notes in Networks and Systems. Springer.",
+    bibtex: `@inproceedings{karthik2025adml,
+  title={Higher-order Statistical Features-based Machine Learning Approach for Evaluating Advertisement Effectiveness through Eye-Tracking Data Analysis},
+  author={Karthik, Chokkakula and Vedanarayana, Tankala Sri and Singh, Anurag and Yadav nee Ghosh, Sresha},
+  booktitle={Lecture Notes in Networks and Systems},
+  publisher={Springer},
+  year={2025},
+  note={Submitted, Scopus Indexed}
+}`
+  },
+  "pub-c3": {
+    title: "The Portrayal of LGBTQ Community in Contemporary Hindi Cinemas",
+    apa: "Kumar, A., Gupta, A., Yadav, N., & Yadav, S. (2021). The Portrayal of LGBTQ Community in Contemporary Hindi Cinemas. International Conference on Towards Gender Equality: Overpowering Structural Barriers and Reclaiming Agency, Jagran Lakecity University, Bhopal.",
+    bibtex: `@inproceedings{kumar2021lgbtq,
+  title={The Portrayal of LGBTQ Community in Contemporary Hindi Cinemas},
+  author={Kumar, Aaditya and Gupta, Apoorva and Yadav, Nandita and Yadav, Sresha},
+  booktitle={International Conference on Towards Gender Equality: Overpowering Structural Barriers and Reclaiming Agency},
+  organization={Jagran Lakecity University},
+  year={2021}
+}`
+  },
+  "pub-c4": {
+    title: "On the Place of Business: Conflict between India and Pakistan",
+    apa: "Yadav, S., & Kumar, I. (2012). On the Place of Business: Conflict between India and Pakistan. 16th Annual Conference of Indian Political Economy Association (IPEA).",
+    bibtex: `@inproceedings{yadav2012indiapakistan,
+  title={On the Place of Business: Conflict between India and Pakistan},
+  author={Yadav, Sresha and Kumar, Ishwar},
+  booktitle={16th Annual Conference of Indian Political Economy Association (IPEA)},
+  year={2012}
+}`
+  },
+  "pub-c5": {
+    title: "Sensitizing Child Poverty Impacts on Adult Outcomes in Developing Countries",
+    apa: "Kumar, I., Kumar, D., Rahman, Z., Yadav, S., & Goyal, P. (2011). Sensitizing Child Poverty Impacts on Adult Outcomes in Developing Countries. International Conference on Interdisciplinary Research and Development (ICIRD), Bangkok, Thailand.",
+    bibtex: `@inproceedings{kumar2011childpoverty,
+  title={Sensitizing Child Poverty Impacts on Adult Outcomes in Developing Countries},
+  author={Kumar, Ishwar and Kumar, D. and Rahman, Z. and Yadav, Sresha and Goyal, P.},
+  booktitle={International Conference on Interdisciplinary Research and Development (ICIRD)},
+  address={Bangkok, Thailand},
+  year={2011}
+}`
+  },
+  "pub-c6": {
+    title: "Green Marketing Mix: Rethinking Competitive Advantage during Climate Change",
+    apa: "Kumar, D., Kumar, I., Rahman, Z., Yadav, S., & Goyal, P. (2011). Green Marketing Mix: Rethinking Competitive Advantage during Climate Change. International Conference on Interdisciplinary Research and Development (ICIRD), Bangkok, Thailand.",
+    bibtex: `@inproceedings{kumar2011greenmarketing,
+  title={Green Marketing Mix: Rethinking Competitive Advantage during Climate Change},
+  author={Kumar, D. and Kumar, Ishwar and Rahman, Z. and Yadav, Sresha and Goyal, P.},
+  booktitle={International Conference on Interdisciplinary Research and Development (ICIRD)},
+  address={Bangkok, Thailand},
+  year={2011}
+}`
   }
 };
 
