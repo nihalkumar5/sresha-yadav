@@ -679,7 +679,7 @@ a:visited {
    ========================================================================== */
 .credentials-strip {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   background-color: var(--bg-card);
   border: 1px solid var(--border-medium);
   border-radius: 6px;
