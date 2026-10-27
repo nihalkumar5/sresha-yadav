@@ -95,6 +95,18 @@ const citations = {
   note={Best Paper Award}
 }`
   },
+  "pub-j0": {
+    title: "Gastroethnic Postmemory: Partition and Diaspora Migrant Memoirs through Bengali Foodscapes",
+    apa: "Yadav, S. (2026). Gastroethnic Postmemory: Partition and Diaspora Migrant Memoirs through Bengali Foodscapes. Food Studies: An Interdisciplinary Journal, Common Ground Research Networks. https://doi.org/10.18848/2160-1933/CGP/A257",
+    bibtex: `@article{yadav2026gastroethnic,
+  title={Gastroethnic Postmemory: Partition and Diaspora Migrant Memoirs through Bengali Foodscapes},
+  author={Yadav, Sresha},
+  journal={Food Studies: An Interdisciplinary Journal},
+  publisher={Common Ground Research Networks},
+  year={2026},
+  doi={10.18848/2160-1933/CGP/A257}
+}`
+  },
   "pub-j1": {
     title: "Thematic Analysis of Advertisement Using NVivo",
     apa: "Yadav, S. (2026). Thematic Analysis of Advertisement Using NVivo. IEEE Xplore. https://doi.org/10.1109/GCON69192.2026.11648868",
